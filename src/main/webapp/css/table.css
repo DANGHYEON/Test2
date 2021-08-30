@@ -1,0 +1,31 @@
+@charset "UTF-8";
+#title{
+
+	color: red;
+	
+}
+
+.tbl{
+  border-collapse: collapse; /* 테이블간 간격 없음 */
+  line-height: 1.5;			 
+  margin: 0 auto;			 /* 표 가운데 정렬  */
+}
+
+.th{
+  width: 160px;   	/* 테이블 크기 조정  */
+  padding:10px;	  	/* 테이블 크기 조정  */
+  font-weight: bold;
+  color: white;
+  border-bottom: 1px solid gray;
+  border-right : 1px solid gray;
+  background: #00BA2B ;
+}
+
+.td{
+  width: 160px; 	/* 테이블 크기 조정  */
+  padding:10px; 	/* 테이블 크기 조정  */
+  text-align: center; /* 내용 가운데 정렬  */
+  border-bottom: 1px solid gray;
+  border-right : 1px solid gray;
+  background: #D9E0DD;
+}
